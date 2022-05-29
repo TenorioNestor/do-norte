@@ -1,8 +1,7 @@
-# Restaurant Landing Page
+# PodCast Pages
 
 - Used bootstrap tools & own styles.
 - Implemented responsive template.
 
-👉🏻 [Demo](https://yaninatrekhleb.github.io/restaurant-website/)
+👉🏻 [Demo](https:///)
 
-![Demo](img/demo.gif)
