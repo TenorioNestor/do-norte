@@ -136,16 +136,17 @@ a.link-to-book:hover {
     display: block;
 
 }
-.contact-adress a{
-    background-color: #ffffff;
-    color: #95999e;
+.contact-adress a:hover{
+    
+    color: #0a0a0a;
     text-decoration: none;
 
 }
-.contact-adress a:hover{
-background-color: #ffffff;
-color: #95999e;
-text-decoration: none;
+.contact-adress a{
+    
+    color: #95999e;
+    text-decoration: none;
+
 }
 
 
