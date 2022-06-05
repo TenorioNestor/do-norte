@@ -97,7 +97,12 @@ a.link-to-book:hover {
 .row-flex {
     display: flex;
     flex-direction: row;
+    
 }
+
+
+
+
 
 .flex-column-form {
     display: flex;
@@ -127,6 +132,7 @@ a.link-to-book:hover {
     font-size: 1.2em;
 }
 
+
 .form-group p {
     font-size: 1.2em;
 }
@@ -144,19 +150,51 @@ a.link-to-book:hover {
 }
 .contact-adress a{
     
-    color: #95999e;
+    color: #ffffff;
     text-decoration: none;
 
 }
 
 
 
-#contato {
+.about-section #contato {
     
     color: #95999e;
     text-decoration: none;
+    
 }
-@media (min-width:577px) and (max-width: 800px) {
+
+
+.navbar-brand #contato{
+    background-color: white;
+    
+}
+
+.whatsapp, .btn,.btn-success a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.whatsapp, .btn, .btn-success a:hover{
+    text-decoration: none;
+    color: #000000;
+}
+.whatsapp h4{
+    color: #0a0a0a;
+}
+#producao a{
+    color: #000000;
+    text-decoration: none;
+
+}
+    #producao a:hover{
+        color: #e80c0c;
+        text-transform: uppercase;
+        text-decoration: none;
+
+    }
+
+
+@media (min-width:412px) and (max-width: 914px) {
 
     .section-intro {
         height: 500px;
@@ -175,7 +213,13 @@ a.link-to-book:hover {
         display: flex;
         flex-direction: column;
     }
+    
 }
+    #producao{
+        text-align: center;
+        color: #95999e;
+    }
+
 
 @media screen and (max-width: 576px) {
     .section-intro {
@@ -202,11 +246,16 @@ a.link-to-book:hover {
     .row-flex {
         display: flex;
         flex-direction: column;
+        text-align: center;
     }
-
+   
     .row-flex h3 {
         font-size: 25px;
-        text-align: center;
+        
+    }
+    .row-flex h4 {
+        font-size: 25px;
+        
     }
 
     .form-group p {
@@ -217,6 +266,27 @@ a.link-to-book:hover {
     .contact-adress p span {
         font-size: 15px;
         text-align: center;
+    }
+ 
+   #insta{
+    margin: 2.3em ;
+    
+   }
+   #producao{
+       text-align: center;
+       color: #95999e;
+
+   }
+   #producao a{
+    color: #000000;
+    text-decoration: none;
+
+}
+    #producao a:hover{
+        color: #e80c0c;
+        text-transform: uppercase;
+        text-decoration: none;
+
     }
 
 }
